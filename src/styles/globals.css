@@ -16,6 +16,10 @@
   }
 }
 
+#__next {
+  background-color: #607f67;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -26,6 +30,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.lineCustom {
-  line-height: 50px;
+#link {
+  color: white;
+}
+
+#app {
+  margin-top: 100px;
 }
