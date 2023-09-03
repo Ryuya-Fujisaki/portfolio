@@ -10,6 +10,7 @@ export default function Home() {
       className=
       "flex flex-wrap mx-8 my-30"
     >
+      <h1 style={{ margin: '15px 0 0 26px', fontSize: '36px', color: 'yellow', }}>藤崎龍也 アプリ開発ポートフォリオサイト</h1>
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
