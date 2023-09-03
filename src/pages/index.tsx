@@ -108,7 +108,7 @@ export default function Home() {
         </Link>
         <p style={{ color: 'white' }} >
           TODOの各要素（inputValue、id、checked）のオブジェクト型による型定義や、引数e、ステートなどの<span style={{ color: 'yellow' }}>お決まりの型定義方法</span>に若干慣れてきたため、TypeScriptアプリのコンポーネント化も実施できました。
-          <span style={{ color: 'yellow' }}>条件演算子</span>によりTODOリストが空の場合は'登録されたTODOはありません'と文字列を返すよう設定しています。
+          <span style={{ color: 'yellow' }}>条件演算子</span>によりTODOリストが空の場合は&apos登録されたTODOはありません&aposと文字列を返すよう設定しています。
         </p>
       </div>
 
