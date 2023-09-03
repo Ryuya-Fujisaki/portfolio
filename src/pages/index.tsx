@@ -24,6 +24,9 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
+        <p style={{ color: 'white' }} >
+          要作成
+        </p>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -192,6 +195,9 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
+        <p style={{ color: 'white' }} >
+          要作成
+        </p>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
