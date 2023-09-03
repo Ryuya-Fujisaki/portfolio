@@ -115,6 +115,13 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
+        <p style={{ color: 'white' }} >
+          JavaScriptで作成したアプリケーションを<span style={{ color: 'yellow' }}>TypeScript</span>に移行する際に厳格な<span style={{ color: 'yellow' }}>型チェック</span>によるエラー続出で<span style={{ color: 'yellow' }}>エラーを解決</span>するのに相当
+          苦労しました。その解決策として、TODO入力フィールド、作成ボタン、TODO表示、完了ボタンだけの最もシンプルなTODOリストをイチから作成して
+          みたところ、それぞれの関数、メソッド、<span style={{ color: 'yellow' }}>フック</span>、<span style={{ color: 'yellow' }}>ステート</span>・<span style={{ color: 'yellow' }}>props</span>の渡し方についての理解を深めながら、TypeScriptにおける型定義を
+          学習することができました。また、TODOの入力フィールドが空の場合は関数を実行しないこと（<span style={{ color: 'yellow' }}>バリデーション</span>）、TODOの更新後は入力
+          フィールドを初期値に戻すこと（<span style={{ color: 'yellow' }}>ステートのクリア</span>）について学習しました。
+        </p>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -167,6 +174,9 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
+        <p style={{ color: 'white' }}>
+
+        </p>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -180,6 +190,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
+        <p style={{ color: 'white' }}>
+          高速動作が可能といわれるビルドツールViteで<span style={{ color: 'yellow' }}>Reactライブラリ</span>を用いてTODOアプリを作成しました。
+          Reactプロジェクトはindex.htmlの<span style={{ color: 'yellow' }}>div要素(ID:root)</span>をエントリーポイントとし、App.jsxが
+          documentGetElementByIdメソッドでそのDOM要素を取得し、そこにコンポーネントツリーをレンダリングします。
+          TODO入力用のInputFormと編集用のEditFormに<span style={{ color: 'yellow' }}>コンポーネント</span>を分け、App.jsxで呼び出しています。
+          <span style={{ color: 'yellow' }}>useStateフック</span>（第一引数に現在の状態、第二引数に状態を管理する関数、そして初期値を設定）により、
+          TODOに変更があった際に再レンダリングします。各コンポーネントはinputとbutton要素で構成され、その中に
+          onChangeやonClick属性を定義しボタンクリックや入力内容更新に基づくイベントハンドラーを実行し、TODOの
+          <span style={{ color: 'yellow' }}>CRUD操作</span>（create, read, update, delete）を可能にしています。
+        </p>
       </div>
     </div>
   )
