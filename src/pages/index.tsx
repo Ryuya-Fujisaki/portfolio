@@ -5,12 +5,180 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  function openModal13() {
+    const modal = document.getElementById("modal-content-13");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal13() {
+    const modal = document.getElementById("modal-content-13");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal12() {
+    const modal = document.getElementById("modal-content-12");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal12() {
+    const modal = document.getElementById("modal-content-12");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal11() {
+    const modal = document.getElementById("modal-content-11");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal11() {
+    const modal = document.getElementById("modal-content-11");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal10() {
+    const modal = document.getElementById("modal-content-10");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal10() {
+    const modal = document.getElementById("modal-content-10");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal9() {
+    const modal = document.getElementById("modal-content-9");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal9() {
+    const modal = document.getElementById("modal-content-9");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal8() {
+    const modal = document.getElementById("modal-content-8");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal8() {
+    const modal = document.getElementById("modal-content-8");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal7() {
+    const modal = document.getElementById("modal-content-7");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal7() {
+    const modal = document.getElementById("modal-content-7");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal6() {
+    const modal = document.getElementById("modal-content-6");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal6() {
+    const modal = document.getElementById("modal-content-6");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal5() {
+    const modal = document.getElementById("modal-content-5");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal5() {
+    const modal = document.getElementById("modal-content-5");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal4() {
+    const modal = document.getElementById("modal-content-4");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal4() {
+    const modal = document.getElementById("modal-content-4");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal3() {
+    const modal = document.getElementById("modal-content-3");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal3() {
+    const modal = document.getElementById("modal-content-3");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal2() {
+    const modal = document.getElementById("modal-content-2");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal2() {
+    const modal = document.getElementById("modal-content-2");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+  function openModal1() {
+    const modal = document.getElementById("modal-content-1");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal1() {
+    const modal = document.getElementById("modal-content-1");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
   return (
-    <div
-      className=
-      "flex flex-wrap mx-8 my-30"
-    >
-      <h1 style={{ margin: '15px 0 0 26px', fontSize: '36px', color: 'yellow', }}>藤崎龍也 アプリ開発ポートフォリオサイト</h1>
+    <div className="grid grid-wra@ mx-8 my-30" >
+      <h1 style={{ margin: '15px 0 0 14px', fontSize: '36px', color: 'yellow', }}>藤崎龍也 Reactアプリ開発ポートフォリオ</h1>
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
@@ -24,9 +192,20 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          要作成
-        </p>
+        <div id='modal-content-13'>
+          <p style={{ color: 'white' }} >
+            <span style={{ color: 'yellow' }}>Next.js</span>によるTODOリストです。Next.jsの<span style={{ color: 'yellow' }}>ルーター機能</span>を活用するために<span style={{ color: 'yellow' }}>useRouterフック</span>を使用しています。これはページ間のナビゲーションやコンポーネントの表示切り替えなどのルーティング
+            関連のタスクを実行するのに役立っています。また、本アプリはバージョン13の<span style={{ color: 'yellow' }}>appルーティング</span>ではなくバージョン12の<span style={{ color: 'yellow' }}>pagesルーティング</span>を利用しており、コンポーネント内でルーター情報にアクセスするためのuseRouterと、特定URLに対応するpagesルーティングの両者が連携してルーティングとナビゲーションを制御しています。
+            そして<span style={{ color: 'yellow' }}>FirebaseのAuthentification</span>を導入しメールアドレスとパスワードでの認証を行なっています。
+            登録ユーザーの情報は<span style={{ color: 'yellow' }}>Firebaseコンソール</span>で確認することができます。サインイン済みのユーザーをサインインページからログインページに、あるいはログアウト後のユーザーをログインページに<span style={{ color: 'yellow' }}>リダイレクト</span>するなどの制御を行っています。
+            UIコンポーネントライブラリーとして<span style={{ color: 'yellow' }}>Chakura UI</span>を使用しており、UIコンポーネントのデザインに一貫性を持たせています。また、<span style={{ color: 'yellow' }}>Firebase/Firestore</span>によりクライアントでインプットされたデータをFirebaseデータベースに渡しています。
+            Next.jsのアプリはホスティング時のエラー解決が困難で、ローカル環境に眠っているアプリが複数ありますが、このアプリは<span style={{ color: 'yellow' }}>npm run build</span>時に発生するエラーを解決することで<span style={{ color: 'yellow' }}>ホスティング</span>が実現しました。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal13}>説明書</button>
+          <button onClick={closeModal13}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -40,9 +219,15 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          Vol.11をTypeScriptで再作成しました。<span style={{ color: 'yellow' }}>interface</span>を用いて型定義しています。
-        </p>
+        <div id="modal-content-12">
+          <p style={{ color: 'white' }} >
+            Vol.11をTypeScriptで再作成しました。<span style={{ color: 'yellow' }}>interface</span>を用いて型定義しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={() => openModal12("modal-content-12")}>説明書</button>
+          <button onClick={() => closeModal12("modal-content-12")}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -56,9 +241,15 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          <span style={{ color: 'yellow' }}>lockファイル</span>が二つ存在している点はバージョン競合、保守性低下、共同作業の困難さの点で改善すべきところですが、未実施です。<span style={{ color: 'yellow' }}>react-beautiful-dnd</span>というライブラリからDraggableやDroppableのコンポーネントをインポートし、カードのドラッグアンドドロップを実現しています。
-        </p>
+        <div id="modal-content-11">
+          <p style={{ color: 'white' }} >
+            <span style={{ color: 'yellow' }}>lockファイル</span>が二つ存在している点はバージョン競合、保守性低下、共同作業の困難さの点で改善すべきところですが、未実施です。<span style={{ color: 'yellow' }}>react-beautiful-dnd</span>というライブラリからDraggableやDroppableのコンポーネントをインポートし、カードのドラッグアンドドロップを実現しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal11}>説明書</button>
+          <button onClick={closeModal11}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -72,10 +263,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          <span style={{ color: 'yellow' }}>環境変数</span>を<span style={{ color: 'yellow' }}>.env</span>ファイルに分けて設定しバージョン管理から除外することで、機密情報の漏洩を防いでいます。<span style={{ color: 'yellow' }}>Firebase</span>の<span style={{ color: 'yellow' }}>Firestore</span>機能を使い、useEffectフックと<span style={{ color: 'yellow' }}>fetchData関数</span>によりFirebaseデータベースからデータを非同期に取得し、Reactコンポーネントのtodosステートに更新してデータを表示しています。
-          UIコンポーネントに<span style={{ color: 'yellow' }}>Material UI</span>を使用しています。<span style={{ color: 'yellow' }}>Firebase</span>の設定は初期化、環境変数を含め慣れるまで何度も繰り返しました。
-        </p>
+        <div id="modal-content-10">
+          <p style={{ color: 'white' }} >
+            <span style={{ color: 'yellow' }}>環境変数</span>を<span style={{ color: 'yellow' }}>.env</span>ファイルに分けて設定しバージョン管理から除外することで、機密情報の漏洩を防いでいます。<span style={{ color: 'yellow' }}>Firebase</span>の<span style={{ color: 'yellow' }}>Firestore</span>機能を使い、useEffectフックと<span style={{ color: 'yellow' }}>fetchData関数</span>によりFirebaseデータベースからデータを非同期に取得し、Reactコンポーネントのtodosステートに更新してデータを表示しています。
+            UIコンポーネントに<span style={{ color: 'yellow' }}>Material UI</span>を使用しています。<span style={{ color: 'yellow' }}>Firebase</span>の設定は初期化、環境変数を含め慣れるまで何度も繰り返しました。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal10}>説明書</button>
+          <button onClick={closeModal10}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -89,10 +286,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          filteringTodos関数内で<span style={{ color: 'yellow' }}>スイッチ文</span>を用い、filterの値によって、つまり、<span style={{ color: 'yellow' }}>フィルター</span>されたTODOがどの状態であるか（未着手、作業中、完了）によって表示するTODOを切り替える設定を行なっています。そのほか、<span style={{ color: 'yellow' }}>void</span>を用いた関数（props）の型定義や、set関数に対する<span style={{ color: 'yellow' }}>React.Dispatch</span>による型定義を実施しました。
-          また、styleプロパティにより特定の要素に個別の<span style={{ color: 'yellow' }}>インラインスタイル</span>を適用しています。４つのコンポーネントに切り分け、App.tsxで呼び出しています。
-        </p>
+        <div id="modal-content-9">
+          <p style={{ color: 'white' }} >
+            filteringTodos関数内で<span style={{ color: 'yellow' }}>スイッチ文</span>を用い、filterの値によって、つまり、<span style={{ color: 'yellow' }}>フィルター</span>されたTODOがどの状態であるか（未着手、作業中、完了）によって表示するTODOを切り替える設定を行なっています。そのほか、<span style={{ color: 'yellow' }}>void</span>を用いた関数（props）の型定義や、set関数に対する<span style={{ color: 'yellow' }}>React.Dispatch</span>による型定義を実施しました。
+            また、styleプロパティにより特定の要素に個別の<span style={{ color: 'yellow' }}>インラインスタイル</span>を適用しています。４つのコンポーネントに切り分け、App.tsxで呼び出しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal9}>説明書</button>
+          <button onClick={closeModal9}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -106,10 +309,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          TODOの各要素（inputValue、id、checked）のオブジェクト型による型定義や、引数e、ステートなどの<span style={{ color: 'yellow' }}>お決まりの型定義方法</span>に若干慣れてきたため、TypeScriptアプリのコンポーネント化も実施できました。
-          <span style={{ color: 'yellow' }}>条件演算子</span>によりTODOリストが空の場合は&apos登録されたTODOはありません&aposと文字列を返すよう設定しています。
-        </p>
+        <div id="modal-content-8">
+          <p style={{ color: 'white' }} >
+            TODOの各要素（inputValue、id、checked）のオブジェクト型による型定義や、引数e、ステートなどの<span style={{ color: 'yellow' }}>お決まりの型定義方法</span>に若干慣れてきたため、TypeScriptアプリのコンポーネント化も実施できました。
+            <span style={{ color: 'yellow' }}>条件演算子</span>によりTODOリストが空の場合は&apos登録されたTODOはありません&aposと文字列を返すよう設定しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal8}>説明書</button>
+          <button onClick={closeModal8}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -123,9 +332,15 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          こちらもコンポーネント化未実施のTypeScriptによるTODOリストです。<span style={{ color: 'yellow' }}>checkedパラメータ</span>は現在のチェック状態を表し、<span style={{ color: 'yellow' }}>関数handleChecked</span>によりTODO要素のチェック状態をトグルしています。<span style={{ color: 'yellow' }}>disabled属性</span>は、todo.checkedの値がtrueの場合入力フィールドを無効にします。
-        </p>
+        <div id="modal-content-7">
+          <p style={{ color: 'white' }} >
+            こちらもコンポーネント化未実施のTypeScriptによるTODOリストです。<span style={{ color: 'yellow' }}>checkedパラメータ</span>は現在のチェック状態を表し、<span style={{ color: 'yellow' }}>関数handleChecked</span>によりTODO要素のチェック状態をトグルしています。<span style={{ color: 'yellow' }}>disabled属性</span>は、todo.checkedの値がtrueの場合入力フィールドを無効にします。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal7}>説明書</button>
+          <button onClick={closeModal7}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -139,13 +354,19 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          JavaScriptで作成したアプリケーションを<span style={{ color: 'yellow' }}>TypeScript</span>に移行する際に厳格な<span style={{ color: 'yellow' }}>型チェック</span>によるエラー続出で<span style={{ color: 'yellow' }}>エラーを解決</span>するのに相当
-          苦労しました。その解決策として、TODO入力フィールド、作成ボタン、TODO表示、完了ボタンだけの最もシンプルなTODOリストをイチから作成して
-          みたところ、それぞれの関数・メソッド・<span style={{ color: 'yellow' }}>フック</span>・<span style={{ color: 'yellow' }}>ステート</span>（<span style={{ color: 'yellow' }}>props</span>）の渡し方についての理解を深めながら、TypeScriptにおける型定義を
-          学習することができました。また、TODOの入力フィールドが空の場合は関数を実行しないこと（<span style={{ color: 'yellow' }}>バリデーション</span>）、TODOの更新後は入力
-          フィールドを初期値に戻すこと（<span style={{ color: 'yellow' }}>ステートのクリア</span>）について学習しました。
-        </p>
+        <div id="modal-content-6">
+          <p style={{ color: 'white' }} >
+            JavaScriptで作成したアプリケーションを<span style={{ color: 'yellow' }}>TypeScript</span>に移行する際に厳格な<span style={{ color: 'yellow' }}>型チェック</span>によるエラー続出で<span style={{ color: 'yellow' }}>エラーを解決</span>するのに相当
+            苦労しました。その解決策として、TODO入力フィールド、作成ボタン、TODO表示、完了ボタンだけの最もシンプルなTODOリストをイチから作成して
+            みたところ、それぞれの関数・メソッド・<span style={{ color: 'yellow' }}>フック</span>・<span style={{ color: 'yellow' }}>ステート</span>（<span style={{ color: 'yellow' }}>props</span>）の渡し方についての理解を深めながら、TypeScriptにおける型定義を
+            学習することができました。また、TODOの入力フィールドが空の場合は関数を実行しないこと（<span style={{ color: 'yellow' }}>バリデーション</span>）、TODOの更新後は入力
+            フィールドを初期値に戻すこと（<span style={{ color: 'yellow' }}>ステートのクリア</span>）について学習しました。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal6}>説明書</button>
+          <button onClick={closeModal6}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -159,10 +380,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }}>
-          未完了/完了TODOリストをそれぞれ表示するものを<span style={{ color: 'yellow' }}>TypeScript</span>で直書きで作成。エラーに対応できず、コンポーネント化は実施できませんでした。UIコンポーネントとして<span style={{ color: 'yellow' }}>Material UI</span>を用い、スタイリッシュなフォームフィールドとボタンを設置しました。
-          TODOリストの各要素（inputValue、id、checked）の型を<span style={{ color: 'yellow' }}>カスタム型</span>として定義しています。こちらもエラーによりコンポーネント化が実施できませんでした。
-        </p>
+        <div id="modal-content-5">
+          <p style={{ color: 'white' }}>
+            未完了/完了TODOリストをそれぞれ表示するものを<span style={{ color: 'yellow' }}>TypeScript</span>で直書きで作成。エラーに対応できず、コンポーネント化は実施できませんでした。UIコンポーネントとして<span style={{ color: 'yellow' }}>Material UI</span>を用い、スタイリッシュなフォームフィールドとボタンを設置しました。
+            TODOリストの各要素（inputValue、id、checked）の型を<span style={{ color: 'yellow' }}>カスタム型</span>として定義しています。こちらもエラーによりコンポーネント化が実施できませんでした。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal5}>説明書</button>
+          <button onClick={closeModal5}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -176,12 +403,18 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }}>
-          <span style={{ color: 'yellow' }}>useEffectフック</span>により、データの取得、外部ライブラリとの統合、コンポーネントの状態の変更などコンポーネントの外部とやり取りする多くのタスク（<span style={{ color: 'yellow' }}>副作用</span>）を実行します。
-          App.jsに各種ステート関数を定義し、InputFormとEditFormの2つのコンポーネントを設置。多くの<span style={{ color: 'yellow' }}>props</span>を渡しています。App.js内returnの冒頭で、<span style={{ color: 'yellow' }}>三項演算子</span>により、ステートisEditableがtrueなら、EditFormコンポーネント（編集要素）を出力し、
-          falseなら、InputFormコンポーネント（入力要素）とSelectコンポーネント（todoステータスのプルダウンリスト）を出力するように定義しています。尚、イベントハンドラーにおいて<span style={{ color: 'yellow' }}>引数e</span>を定義し、テキスト入力フィールドの値が変更された時に<span style={{ color: 'yellow' }}>e.target.value</span>によりその値を受け取ります。
-          オブジェクトとしてスタイルを定義し、それを要素の<span style={{ color: 'yellow' }}>style属性</span>に設定することで要素のスタイルを制御しています。<span style={{ color: 'yellow' }}>select要素</span>によりTODO要素のステータスを示すドロップダウンリストを作成しています。
-        </p>
+        <div id="modal-content-4">
+          <p style={{ color: 'white' }}>
+            <span style={{ color: 'yellow' }}>useEffectフック</span>により、データの取得、外部ライブラリとの統合、コンポーネントの状態の変更などコンポーネントの外部とやり取りする多くのタスク（<span style={{ color: 'yellow' }}>副作用</span>）を実行します。
+            App.jsに各種ステート関数を定義し、InputFormとEditFormの2つのコンポーネントを設置。多くの<span style={{ color: 'yellow' }}>props</span>を渡しています。App.js内returnの冒頭で、<span style={{ color: 'yellow' }}>三項演算子</span>により、ステートisEditableがtrueなら、EditFormコンポーネント（編集要素）を出力し、
+            falseなら、InputFormコンポーネント（入力要素）とSelectコンポーネント（todoステータスのプルダウンリスト）を出力するように定義しています。尚、イベントハンドラーにおいて<span style={{ color: 'yellow' }}>引数e</span>を定義し、テキスト入力フィールドの値が変更された時に<span style={{ color: 'yellow' }}>e.target.value</span>によりその値を受け取ります。
+            オブジェクトとしてスタイルを定義し、それを要素の<span style={{ color: 'yellow' }}>style属性</span>に設定することで要素のスタイルを制御しています。<span style={{ color: 'yellow' }}>select要素</span>によりTODO要素のステータスを示すドロップダウンリストを作成しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal4}>説明書</button>
+          <button onClick={closeModal4}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4'>
@@ -195,9 +428,16 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }} >
-          要作成
-        </p>
+        <div id="modal-content-3">
+          <p style={{ color: 'white' }} >
+            Twitterクローンアプリです。UIコンポーネントライブラリに<span style={{ color: 'yellow' }}>material UI</span>を使用しTwitterの各UIコンポーネントを利用しています。<span style={{ color: 'yellow' }}>Firebase/Firestore</span>により、インプットされたデータをデータベースに渡しています。
+            <span style={{ color: 'yellow' }}>react-twitter-embedライブラリ</span>を活用し、Twitterのタイムライン、ツイート埋め込み、ツイートのシェアボタンなど、TwitterウィジェットをReactコンポーネントとしてアプリケーションに組み込んでいます。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal3}>説明書</button>
+          <button onClick={closeModal3}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -211,11 +451,17 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }}>
-          <span style={{ color: 'yellow' }}>...prevTodos</span>は<span style={{ color: 'yellow' }}>スプレッド構文</span>を使用して前回のTODOリストの要素をコピーし、新しいTODOを追加することでprevTodos配列の要素を展開します。
-          <span style={{ color: 'yellow' }}>useRefフック</span>を使用してReactコンポーネント内のDOM要素（テキスト入力フィールド）への参照を保持し現在の値を取得、そしてcurrent.valueをnullにしクリアします。尚TODO配列の要素を識別するために<span style={{ color: 'yellow' }}>uuid</span>を活用しています。これは、配列の要素を識別するための世界的に一意である可能性が極めて高い識別子です。
-          <span style={{ color: 'yellow' }}>map関数</span>を使いtodos配列内の各TODO要素をループ処理し、Todoコンポーネントに渡しています。<span style={{ color: 'yellow' }}>keyプロパティ</span>にはtodo.idを指定しています。また、コンポーネント内に各関数を定義していますが、<span style={{ color: 'yellow' }}>filter関数</span>を使用してtodos配列内のTODO要素をフィルタリングし、<span style={{ color: 'yellow' }}>!todo.completed</span>（完了していないTODO要素のみを新しい配列に残しています。
-        </p>
+        <div id="modal-content-2">
+          <p style={{ color: 'white' }}>
+            <span style={{ color: 'yellow' }}>...prevTodos</span>は<span style={{ color: 'yellow' }}>スプレッド構文</span>を使用して前回のTODOリストの要素をコピーし、新しいTODOを追加することでprevTodos配列の要素を展開します。
+            <span style={{ color: 'yellow' }}>useRefフック</span>を使用してReactコンポーネント内のDOM要素（テキスト入力フィールド）への参照を保持し現在の値を取得、そしてcurrent.valueをnullにしクリアします。尚TODO配列の要素を識別するために<span style={{ color: 'yellow' }}>uuid</span>を活用しています。これは、配列の要素を識別するための世界的に一意である可能性が極めて高い識別子です。
+            <span style={{ color: 'yellow' }}>map関数</span>を使いtodos配列内の各TODO要素をループ処理し、Todoコンポーネントに渡しています。<span style={{ color: 'yellow' }}>keyプロパティ</span>にはtodo.idを指定しています。また、コンポーネント内に各関数を定義していますが、<span style={{ color: 'yellow' }}>filter関数</span>を使用してtodos配列内のTODO要素をフィルタリングし、<span style={{ color: 'yellow' }}>!todo.completed</span>（完了していないTODO要素のみを新しい配列に残しています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal2}>説明書</button>
+          <button onClick={closeModal2}>閉じる</button>
+        </div>
       </div>
 
       <div id='app' className='w-1/2 p-4' >
@@ -229,17 +475,23 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <p style={{ color: 'white' }}>
-          高速動作が可能といわれるビルドツールViteで<span style={{ color: 'yellow' }}>Reactライブラリ</span>を用いてTODOアプリを作成しました。
-          Reactプロジェクトはindex.htmlの<span style={{ color: 'yellow' }}>div要素(ID:root)</span>をエントリーポイントとし、App.jsxが
-          documentGetElementByIdメソッドでそのDOM要素を取得し、そこにコンポーネントツリーをレンダリングします。
-          TODO入力用のInputFormと編集用のEditFormに<span style={{ color: 'yellow' }}>コンポーネント</span>を分け、App.jsxで呼び出しています。
-          <span style={{ color: 'yellow' }}>useStateフック</span>（第一引数に現在の状態、第二引数に状態を管理する関数、そして初期値を設定）により、
-          TODOに変更があった際に再レンダリングします。各コンポーネントはinputとbutton要素で構成され、その中に
-          onChangeやonClick属性を定義しボタンクリックや入力内容更新に基づくイベントハンドラーを実行し、TODOの
-          <span style={{ color: 'yellow' }}>CRUD操作</span>（create, read, update, delete）を可能にしています。
-        </p>
+        <div id="modal-content-1">
+          <p style={{ color: 'white' }}>
+            高速動作が可能といわれるビルドツールViteで<span style={{ color: 'yellow' }}>Reactライブラリ</span>を用いてTODOアプリを作成しました。
+            Reactプロジェクトはindex.htmlの<span style={{ color: 'yellow' }}>div要素(ID:root)</span>をエントリーポイントとし、App.jsxが
+            documentGetElementByIdメソッドでそのDOM要素を取得し、そこにコンポーネントツリーをレンダリングします。
+            TODO入力用のInputFormと編集用のEditFormに<span style={{ color: 'yellow' }}>コンポーネント</span>を分け、App.jsxで呼び出しています。
+            <span style={{ color: 'yellow' }}>useStateフック</span>（第一引数に現在の状態、第二引数に状態を管理する関数、そして初期値を設定）により、
+            TODOに変更があった際に再レンダリングします。各コンポーネントはinputとbutton要素で構成され、その中に
+            onChangeやonClick属性を定義しボタンクリックや入力内容更新に基づくイベントハンドラーを実行し、TODOの
+            <span style={{ color: 'yellow' }}>CRUD操作</span>（create, read, update, delete）を可能にしています。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal1}>説明書</button>
+          <button onClick={closeModal1}>閉じる</button>
+        </div>
       </div>
-    </div>
+    </div >
   )
 }

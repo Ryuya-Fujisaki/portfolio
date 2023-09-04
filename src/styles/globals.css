@@ -37,3 +37,163 @@ body {
 #app {
   margin-top: 100px;
 }
+
+#modal-content-13 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-12 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-11 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-10 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-9 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-8 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-7 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-6 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-5 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-4 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-3 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-2 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+#modal-content-1 {
+  position: fixed; /* 画面上の固定位置に表示 */
+  top: 50%; /* 画面上部からの位置（適切な値に調整） */
+  left: 65%; /* 画面左端からの位置（適切な値に調整） */
+  transform: translate(-50%, -50%); /* 中央に配置 */
+  z-index: 1000; /* 他の要素より上に表示 */
+  display: none; /* 初めは非表示 */
+  background-color: #e97038;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  margin: 5px 2px 5px 105px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+
+
