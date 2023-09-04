@@ -225,8 +225,8 @@ export default function Home() {
           </p>
         </div>
         <div style={{ display: 'flex' }}>
-          <button onClick={() => openModal12("modal-content-12")}>説明書</button>
-          <button onClick={() => closeModal12("modal-content-12")}>閉じる</button>
+          <button onClick={openModal12}>説明書</button>
+          <button onClick={closeModal12}>閉じる</button>
         </div>
       </div>
 
