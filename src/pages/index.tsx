@@ -179,13 +179,32 @@ export default function Home() {
   return (
     <div className="grid grid-wra@ mx-8 my-30" >
       <h1 style={{ margin: '15px 0 0 14px', fontSize: '36px', color: 'yellow', }}>藤崎龍也 Reactアプリ開発ポートフォリオ</h1>
-      <h2 style={{ margin: '15px 0 0 14px', fontSize: '18px', color: 'white', }}>
-        画像をクリックするとアプリのページに遷移します<br />
-        説明書をクリックするとアプリの説明を表示します<br />
-        閉じるをクリックするとアプリの説明を閉じます<br />
-        ※現状本サイトはPCブラウザ(幅820px以上)でご覧頂くことのみを想定しており、モバイル対応していません<br />
+      <h2 style={{ margin: '15px 0 0 14px', fontSize: '16px', color: 'white', }}>
+        ※画像をクリックするとアプリのページに遷移します<br />
+        ※<span style={{ margin: 0, padding: '2px 4px', cursor: 'default', height: '35px', backgroundColor: '#3498db', borderRadius: '3px' }}>説明書</span>をクリックするとアプリの説明を表示します<br />
+        ※<span style={{ margin: 0, padding: '2px 4px', cursor: 'default', height: '35px', backgroundColor: '#3498db', borderRadius: '3px' }}>閉じる</span>をクリックするとアプリの説明を閉じます<br />
+        ※現状本サイトはPCブラウザ(幅820px以上)でご覧頂くことのみを想定しており、<span style={{ color: 'darkred' }}>モバイル対応していません</span><br />
         ※ご了承頂けますようお願いいたします
       </h2>
+      <h2 style={{ margin: '20px 0 0 14px', fontSize: '20px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
+      <p style={{ margin: '0 0 0 14px', fontSize: '17px', color: 'white', }}>
+        2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し<br />
+        就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を<br />
+        行ってきました。メンターより、週1回のオンライン面談と、スラック質問への24時間対応を提供して頂いています。<br />
+        <br />
+        カリキュラムの詳細をお見せすることは控えますが、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、<br />
+        JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に学習してきました。<br />
+        <br />
+        アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備<br />
+        されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、<br />
+        あるプログラミング教育WEBサービスにより独学でアプリ開発に着手いたしました。<br />
+        <br />
+        動画で教えてもらいながら多少は再現するものの、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが<br />
+        できず悩んでいたところ、MENTAを知り入門した次第です。<br />
+        <br />
+        パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する<br />
+        ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において実は結構重要なことなのではないかと<br />考える今日この頃です。
+      </p>
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
