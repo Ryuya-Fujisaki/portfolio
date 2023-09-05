@@ -179,6 +179,13 @@ export default function Home() {
   return (
     <div className="grid grid-wra@ mx-8 my-30" >
       <h1 style={{ margin: '15px 0 0 14px', fontSize: '36px', color: 'yellow', }}>藤崎龍也 Reactアプリ開発ポートフォリオ</h1>
+      <h2 style={{ margin: '15px 0 0 14px', fontSize: '18px', color: 'white', }}>
+        画像をクリックするとアプリのページに遷移します<br />
+        説明書をクリックするとアプリの説明を表示します<br />
+        閉じるをクリックするとアプリの説明を閉じます<br />
+        ※現状本サイトはPCブラウザ(幅820px以上)でご覧頂くことのみを想定しており、モバイル対応していません<br />
+        ※ご了承頂けますようお願いいたします
+      </h2>
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
