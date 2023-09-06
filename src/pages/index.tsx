@@ -246,7 +246,7 @@ export default function Home() {
         </Link>
         <div id='modal-content-13'>
           <p style={{ color: 'white' }} >
-            <span style={{ color: 'yellow' }}>Next.js</span>によるTODOリストです。サインアップページは<span style={{ color: 'yellow' }}>'/signup'</span>です。こちらでユーザー登録して頂くと、TODOリストのメインページ<span style={{ color: 'yellow' }}> '/' </span>に遷移し、ログアウトするとログインページ<span style={{ color: 'yellow' }}>'/login'</span> に遷移します。
+            <span style={{ color: 'yellow' }}>Next.js</span>によるTODOリストです。サインアップページは<span style={{ color: 'yellow' }}>&apos;/signup&apos;</span>です。こちらでユーザー登録して頂くと、TODOリストのメインページ<span style={{ color: 'yellow' }}> &apos;/&apos; </span>に遷移し、ログアウトするとログインページ<span style={{ color: 'yellow' }}>&apos;/login&apos;</span> に遷移します。
             Next.jsの<span style={{ color: 'yellow' }}>ルーター機能</span>を活用するために<span style={{ color: 'yellow' }}>useRouterフック</span>を使用しています。これはページ間のナビゲーションやコンポーネントの表示切り替えなどのルーティング
             関連のタスクを実行するのに役立っています。また、本アプリはバージョン13の<span style={{ color: 'yellow' }}>appルーティング</span>ではなくバージョン12の<span style={{ color: 'yellow' }}>pagesルーティング</span>を利用しており、コンポーネント内でルーター情報にアクセスするためのuseRouterと、特定URLに対応するpagesルーティングの両者が連携してルーティングとナビゲーションを制御しています。
             そして<span style={{ color: 'yellow' }}>FirebaseのAuthentification</span>を導入しメールアドレスとパスワードでの認証を行なっています。
