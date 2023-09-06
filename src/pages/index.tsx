@@ -6,6 +6,20 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  function openModal14() {
+    const modal = document.getElementById("modal-content-14");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal14() {
+    const modal = document.getElementById("modal-content-14");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
   function openModal13() {
     const modal = document.getElementById("modal-content-13");
     if (modal) {
@@ -136,6 +150,7 @@ export default function Home() {
       modal.style.display = "none";
     }
   }
+
   function openModal3() {
     const modal = document.getElementById("modal-content-3");
     if (modal) {
@@ -186,25 +201,36 @@ export default function Home() {
         ※現状本サイトはPCブラウザ(幅820px以上)でご覧頂くことのみを想定しており、<span style={{ color: 'darkred' }}>モバイル対応していません</span><br />
         ※ご了承頂けますようお願いいたします
       </h2>
-      <h2 style={{ margin: '20px 0 0 14px', fontSize: '20px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
-      <p style={{ margin: '0 0 0 14px', fontSize: '17px', color: 'white', }}>
-        2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し<br />
-        就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を<br />
-        行ってきました。メンターより、週1回のオンライン面談と、スラック質問への24時間対応を提供して頂いています。<br />
-        <br />
-        カリキュラムの詳細をお見せすることは控えますが、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、<br />
-        JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に学習してきました。<br />
-        <br />
-        アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備<br />
-        されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、<br />
-        あるプログラミング教育WEBサービスにより独学でアプリ開発に着手いたしました。<br />
-        <br />
-        動画で教えてもらいながら多少は再現するものの、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが<br />
-        できず悩んでいたところ、MENTAを知り入門した次第です。<br />
-        <br />
-        パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する<br />
-        ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において実は結構重要なことなのではないかと<br />考える今日この頃です。
-      </p>
+
+      {/* flex-col→flex-wrap */}
+      <div id='app' className='w-1/2 p-4' >
+        <h2 style={{ margin: '0 0 0 0', fontSize: '24px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
+        <div id='modal-content-14'>
+          <p style={{ margin: '0 0 0 14px', fontSize: '17px', color: 'white', }}>
+            2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し
+            就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を
+            行ってきました。メンターより、週1回のオンライン面談と、スラック質問への24時間対応を提供して頂いています。<br />
+            <br />
+            Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、
+            JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に学習してきました。<br />
+            <br />
+            アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備
+            されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、
+            あるプログラミング教育WEBサービスにより独学でアプリ開発に着手いたしました。<br />
+            <br />
+            動画で教えてもらいながら多少は再現するものの、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが
+            できず悩んでいたところ、MENTAを知り入門した次第です。<br />
+            <br />
+            パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する
+            ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において実は結構重要なことなのではないかと<br />考える今日この頃です。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal14}>説明書</button>
+          <button onClick={closeModal14}>閉じる</button>
+        </div>
+      </div>
+
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
@@ -220,12 +246,13 @@ export default function Home() {
         </Link>
         <div id='modal-content-13'>
           <p style={{ color: 'white' }} >
-            <span style={{ color: 'yellow' }}>Next.js</span>によるTODOリストです。Next.jsの<span style={{ color: 'yellow' }}>ルーター機能</span>を活用するために<span style={{ color: 'yellow' }}>useRouterフック</span>を使用しています。これはページ間のナビゲーションやコンポーネントの表示切り替えなどのルーティング
+            <span style={{ color: 'yellow' }}>Next.js</span>によるTODOリストです。サインアップページは<span style={{ color: 'yellow' }}>'/signup'</span>です。こちらでユーザー登録して頂くと、TODOリストのメインページ<span style={{ color: 'yellow' }}> '/' </span>に遷移し、ログアウトするとログインページ<span style={{ color: 'yellow' }}>'/login'</span> に遷移します。
+            Next.jsの<span style={{ color: 'yellow' }}>ルーター機能</span>を活用するために<span style={{ color: 'yellow' }}>useRouterフック</span>を使用しています。これはページ間のナビゲーションやコンポーネントの表示切り替えなどのルーティング
             関連のタスクを実行するのに役立っています。また、本アプリはバージョン13の<span style={{ color: 'yellow' }}>appルーティング</span>ではなくバージョン12の<span style={{ color: 'yellow' }}>pagesルーティング</span>を利用しており、コンポーネント内でルーター情報にアクセスするためのuseRouterと、特定URLに対応するpagesルーティングの両者が連携してルーティングとナビゲーションを制御しています。
             そして<span style={{ color: 'yellow' }}>FirebaseのAuthentification</span>を導入しメールアドレスとパスワードでの認証を行なっています。
             登録ユーザーの情報は<span style={{ color: 'yellow' }}>Firebaseコンソール</span>で確認することができます。サインイン済みのユーザーをサインインページからログインページに、あるいはログアウト後のユーザーをログインページに<span style={{ color: 'yellow' }}>リダイレクト</span>するなどの制御を行っています。
             UIコンポーネントライブラリーとして<span style={{ color: 'yellow' }}>Chakura UI</span>を使用しており、UIコンポーネントのデザインに一貫性を持たせています。また、<span style={{ color: 'yellow' }}>Firebase/Firestore</span>によりクライアントでインプットされたデータをFirebaseデータベースに渡しています。
-            Next.jsのアプリはホスティング時のエラー解決が困難で、ローカル環境に眠っているアプリが複数ありますが、このアプリは<span style={{ color: 'yellow' }}>npm run build</span>時に発生するエラーを解決することで<span style={{ color: 'yellow' }}>ホスティング</span>が実現しました。
+            Next.jsのアプリはホスティング時のエラー解決が困難で、ローカル環境に眠っているアプリが複数ありますが、このアプリは<span style={{ color: 'yellow' }}>npm run build</span>時に発生するエラーを解決することで<span style={{ color: 'yellow' }}>ホスティング</span>が可能になりました。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
