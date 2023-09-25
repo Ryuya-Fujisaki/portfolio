@@ -6,6 +6,20 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  function openModal00() {
+    const modal = document.getElementById("modal-content-00");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal00() {
+    const modal = document.getElementById("modal-content-00");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
   function openModal14() {
     const modal = document.getElementById("modal-content-14");
     if (modal) {
@@ -33,6 +47,7 @@ export default function Home() {
       modal.style.display = "none";
     }
   }
+
   function openModal12() {
     const modal = document.getElementById("modal-content-12");
     if (modal) {
@@ -205,7 +220,7 @@ export default function Home() {
       {/* flex-col→flex-wrap */}
       <div id='app' className='w-1/2 p-4' >
         <h2 style={{ margin: '0 0 0 0', fontSize: '24px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
-        <div id='modal-content-14'>
+        <div id='modal-content-00'>
           <p style={{ margin: '0 0 0 14px', fontSize: '17px', color: 'white', }}>
             2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し
             就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を
@@ -223,6 +238,33 @@ export default function Home() {
             <br />
             パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する
             ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において実は結構重要なことなのではないかと<br />考える今日この頃です。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal00}>説明書</button>
+          <button onClick={closeModal00}>閉じる</button>
+        </div>
+      </div>
+
+      {/* flex-col→flex-wrap */}
+      <div id='app' className='w-1/2 p-4' >
+        {/* className='w-1/2 p-4'を追加 */}
+        <Link id="link" href="https://frost-rainbow-crop.glitch.me/" target="_blank" >
+          <span style={{ fontSize: '24px', color: 'yellow' }}>Vol14.</span> JavaScriptによるフォーム入力規制・ページ遷移とPHP<br />テンプレートを実装したオンラインスクールサイトモックアップ
+          <Image
+            src="/vol14.png"
+            alt=""
+            width={500}
+            height={300}
+            style={{ borderRadius: '10px' }}
+          />
+        </Link>
+        <div id='modal-content-14'>
+          <p style={{ color: 'white' }} >
+            <span style={{ color: 'yellow' }}>Glitch(開発用SaaS)</span>を用いたオンラインスクールサイトモックアップです。
+            PHPファイル、CSSファイル、JSファイルで成り立っています。ヘッダー、フッター等の共通パーツを<span style={{ color: 'yellow' }}>PHPファイル</span>で<span style={{ color: 'yellow' }}>テンプレート化</span>し、<br />
+            入力フォームのエラー表示・ページ遷移、学習日数の表示を<span style={{ color: 'yellow' }}>JavaScript</span>で、カレンダーの実装を<span style={{ color: 'yellow' }}>jQuery</span>で行なっています。Glitchのちょっとした
+            設定変更によりPHPファイルの実装が容易に可能となっています。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
