@@ -252,7 +252,7 @@ export default function Home() {
         <Link id="link" href="https://frost-rainbow-crop.glitch.me/" target="_blank" >
           <span style={{ fontSize: '24px', color: 'yellow' }}>Vol14.</span> JavaScriptによるフォーム入力規制・ページ遷移とPHP<br />テンプレートを実装したオンラインスクールサイトモックアップ
           <Image
-            src="/vol14.png"
+            src="/Vol14.png"
             alt=""
             width={500}
             height={300}
