@@ -221,23 +221,34 @@ export default function Home() {
       <div id='app' className='w-1/2 p-4' >
         <h2 style={{ margin: '0 0 0 0', fontSize: '24px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
         <div id='modal-content-00'>
-          <p style={{ margin: '0 0 0 14px', fontSize: '17px', color: 'white', }}>
+          <p style={{ margin: '0 0 0 14px', fontSize: '16px', color: 'white', }}>
             2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し
             就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を
-            行ってきました。メンターより、週1回のオンライン面談と、スラック質問への24時間対応を提供して頂いています。<br />
+            行ってきました。３か月のメンタリングサービスは、週1回のオンライン面談と、スラック質問への24時間対応です。<br />
             <br />
-            Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、
-            JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に学習してきました。<br />
+            メンター付き学習の3か月間は、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、
+            JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に
+            学習してきました。ちなみに本サイトは、<span style={{ color: 'yellow' }}>Next.js</span>、<span style={{ color: 'yellow' }}>TypeScript</span>により作成しています。<br />
             <br />
             アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備
             されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、
-            あるプログラミング教育WEBサービスにより独学でアプリ開発に着手いたしました。<br />
+            独学エンジニアというサブスクリプションで独学でアプリ開発に着手したのですが、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが
+            できず悩んでいた時にMENTAに出会った次第です。<br />
             <br />
-            動画で教えてもらいながら多少は再現するものの、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが
-            できず悩んでいたところ、MENTAを知り入門した次第です。<br />
+            パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm
+            </span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する
+            ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において重要なことであることを痛感しています。<br />
             <br />
-            パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する
-            ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において実は結構重要なことなのではないかと<br />考える今日この頃です。
+            3か月の学習後、大阪のアプリ開発会社に就職し、そこで1.5か月間の実務経験を積むことができました。
+            その内容はLaravel/TypeScriptシステムのコード改修とテストですが、その間に、<span style={{ color: 'yellow' }}>GitHub</span>、<span style={{ color: 'yellow' }}>Docker</span>、
+            <span style={{ color: 'yellow' }}>CodeIgniter4</span>、<span style={{ color: 'yellow' }}>PhpStorm</span>の操作方法や、<span style={{ color: 'yellow' }}>bash</span>、
+            <span style={{ color: 'yellow' }}>build</span>、<span style={{ color: 'yellow' }}>npm run dev</span>などのコマンドの使い方、
+            PHPアプリ、JavaScriptアプリそれぞれのブラウザへの表示方法を習得いたしました。<br />
+            <br />
+            その会社を退職後、<span style={{ color: 'yellow' }}>フルスタックアプリ開発</span>の習得を目的とし再度独学を開始し、2023年11月20日現在、<span style={{ color: 'yellow' }}>Next.js</span>、
+            <span style={{ color: 'yellow' }}>Express(Node.js)</span>、<span style={{ color: 'yellow' }}>Prisma</span>、<span style={{ color: 'yellow' }}>AWS</span>を使用したTodoリストの開発
+            （教材を見ながらのトレーニング）を行っています。現在の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能要件を満たすロジックを組むことができないため、オリジナルアプリの
+            作成がまだできていない状況です。今後その課題解決に取り組みつつ、実務開始への準備を整えていきたいと考えています。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
@@ -264,7 +275,8 @@ export default function Home() {
             <span style={{ color: 'yellow' }}>Glitch(開発用SaaS)</span>を用いたオンラインスクールサイトモックアップです。
             PHPファイル、CSSファイル、JSファイルで成り立っています。ヘッダー、フッター等の共通パーツを<span style={{ color: 'yellow' }}>PHPファイル</span>で<span style={{ color: 'yellow' }}>テンプレート化</span>し、<br />
             入力フォームのエラー表示・ページ遷移、学習日数の表示を<span style={{ color: 'yellow' }}>JavaScript</span>で、カレンダーの実装を<span style={{ color: 'yellow' }}>jQuery</span>で行なっています。Glitchのちょっとした
-            設定変更によりPHPファイルの実装が容易に可能となっています。
+            設定変更によりPHPファイルの実装が容易に可能となっています。ヘッダーからは、会員登録ボタン、ログインボタンをそれぞれ押下して頂くと、会員登録、ログイン画面に遷移し、入力内容確認画面表示後、マイラーニング画面に遷移します。フッターでは、
+            サイトマップのみ別タプで表示され、また、会員登録画面からは、会員規約が別タブで表示されるようになっています。これらの機能の実装は全て<span style={{ color: 'yellow' }}>JavaScript</span>によります。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
