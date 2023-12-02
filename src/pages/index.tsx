@@ -247,13 +247,42 @@ export default function Home() {
             <br />
             その会社を退職後、<span style={{ color: 'yellow' }}>フルスタックアプリ開発</span>の習得を目的とし再度独学を開始し、2023年11月20日現在、<span style={{ color: 'yellow' }}>Next.js</span>、
             <span style={{ color: 'yellow' }}>Express(Node.js)</span>、<span style={{ color: 'yellow' }}>Prisma</span>、<span style={{ color: 'yellow' }}>AWS</span>を使用したTodoリストの開発
-            （教材を見ながらのトレーニング）を行っています。現在の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能要件を満たすロジックを組むことができないため、オリジナルアプリの
+            （教材を見ながらのトレーニング）を完了しました(Vol.15)。現在の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能要件を満たすロジックを組むことができないため、オリジナルアプリの
             作成がまだできていない状況です。今後その課題解決に取り組みつつ、実務開始への準備を整えていきたいと考えています。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
           <button onClick={openModal00}>説明書</button>
           <button onClick={closeModal00}>閉じる</button>
+        </div>
+      </div>
+
+      {/* flex-col→flex-wrap */}
+      <div id='app' className='w-1/2 p-4' >
+        {/* className='w-1/2 p-4'を追加 */}
+        <Link id="link" href="https://main.d3nkqsym2ayk8d.amplifyapp.com/" target="_blank" >
+          <span style={{ fontSize: '24px', color: 'yellow' }}>Vol15.</span> Next.jsとExpressで作成したフルスタックTodoアプリ。<br />フロントをAmplify、バックエンドをApp RunnerにAWSデプロイ。
+          <Image
+            src="/vol15.png"
+            alt=""
+            width={500}
+            height={300}
+            style={{ borderRadius: '10px' }}
+          />
+        </Link>
+        <div id='modal-content-14'>
+          <p style={{ color: 'white' }} >
+            一先ず、<span style={{ color: 'yellow' }}>Node.js</span>サーバーをTypeScriptベースで構築し、<span style={{ color: 'yellow' }}>Postman</span>を使って<span style={{ color: 'yellow' }}>エンドポイント</span>が正しく
+            機能しているか<span style={{ color: 'yellow' }}>APIテスト</span>を実行し、<span style={{ color: 'yellow' }}>Prisma</span>でデータベースを管理（リレーショナルマッピング）。Node.jsのフレームワークである
+            <span style={{ color: 'yellow' }}>Express</span>を用いてCRUDのAPIを構築し、ローカル環境で実装後、本番環境としてフロントエンドを<span style={{ color: 'yellow' }}>AWS Amplify</span>に、バックエンドを
+            <span style={{ color: 'yellow' }}>AWS App Runner</span>にフルスタックデプロイ。デプロイ時の<span style={{ color: 'yellow' }}>環境変数</span>の取り扱い（App Runnerのデフォルトドメインを、AmplifyのAPI URLとして設定）について学習。
+            また、Amplifyデプロイの際にビルドで失敗しましたが、これは<span style={{ color: 'yellow' }}>Next.js14</span>のNode.jsサポート範囲の変更に起因するものということで、ビルドイメージの設定を変更することにより解決しました。デプロイ後、ブラウザで
+            データ更新し、バックエンドのデータ管理状態をブラウザで確認することが実現できました（App Runnerを一時停止すると、データが表示されなくなります）。
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal14}>説明書</button>
+          <button onClick={closeModal14}>閉じる</button>
         </div>
       </div>
 
