@@ -20,6 +20,34 @@ export default function Home() {
     }
   }
 
+  function openModal16() {
+    const modal = document.getElementById("modal-content-16");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal16() {
+    const modal = document.getElementById("modal-content-16");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  function openModal15() {
+    const modal = document.getElementById("modal-content-15");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  function closeModal15() {
+    const modal = document.getElementById("modal-content-15");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
   function openModal14() {
     const modal = document.getElementById("modal-content-14");
     if (modal) {
@@ -224,7 +252,7 @@ export default function Home() {
           <p style={{ margin: '0 0 0 14px', fontSize: '16px', color: 'white', }}>
             2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し
             就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を
-            行ってきました。３か月のメンタリングサービスは、週1回のオンライン面談と、スラック質問への24時間対応です。<br />
+            行ってきました。3か月のメンタリングサービスは、週1回のオンライン面談と、スラック質問への24時間対応です。<br />
             <br />
             メンター付き学習の3か月間は、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、
             JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に
@@ -247,13 +275,45 @@ export default function Home() {
             <br />
             その会社を退職後、<span style={{ color: 'yellow' }}>フルスタックアプリ開発</span>の習得を目的とし再度独学を開始し、2023年11月20日現在、<span style={{ color: 'yellow' }}>Next.js</span>、
             <span style={{ color: 'yellow' }}>Express(Node.js)</span>、<span style={{ color: 'yellow' }}>Prisma</span>、<span style={{ color: 'yellow' }}>AWS</span>を使用したTodoリストの開発
-            （教材を見ながらのトレーニング）を完了しました(Vol.15)。現在の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能要件を満たすロジックを組むことができないため、オリジナルアプリの
-            作成がまだできていない状況です。今後その課題解決に取り組みつつ、実務開始への準備を整えていきたいと考えています。
+            （教材を見ながらのトレーニング）を完了しました(Vol.15)。一番の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能を実装するロジックを組むことが苦手であることです。特に、
+            フロントエンドとバックエンド、<span style={{ color: 'yellow' }}>データベース</span>を連携するようなアプリだとなおのこと実装が困難です。しかしなんとか、またしてもMENTAのアドバイスをもらいながら、2024年
+            1月の約1か月で<span style={{ color: 'yellow' }}>オリジナルアプリ</span>を完成することができました。とはいうものの、新規ユーザーのゲームデータの格納、ゲームデータのブラウザ表示などの実装が未完了であり、
+            デプロイはしたものの、課題は山積みです。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
           <button onClick={openModal00}>説明書</button>
           <button onClick={closeModal00}>閉じる</button>
+        </div>
+      </div>
+
+      {/* flex-col→flex-wrap */}
+      <div id='app' className='w-1/2 p-4' >
+        {/* className='w-1/2 p-4'を追加 */}
+        <Link id="link" href="https://hiragana-learning.vercel.app/" target="_blank" >
+          <span style={{ fontSize: '24px', color: 'yellow' }}>Vol16.</span> 初のオリジナルアプリ。ひらがな当てゲーム。Next.js、TypeScript、<br />
+          Firebase Authentication、Firebase Firestore。Vercelにデプロイ。
+          <Image
+            src="/vol16.png"
+            alt=""
+            width={500}
+            height={300}
+            style={{ borderRadius: '10px' }}
+          />
+        </Link>
+        <div id='modal-content-16'>
+          <p style={{ color: 'white' }} >
+            フロントエンドを<span style={{ color: 'yellow' }}>Next.js</span>、<span style={{ color: 'yellow' }}>TypeScript</span>で作成し、データベースを<span style={{ color: 'yellow' }}>Firebase Firestore</span>で、
+            グーグル認証を<span style={{ color: 'yellow' }}>Firebase Authentication</span>で実装いたしました。まず46文字のひらがなのローマ字データを<span style={{ color: 'yellow' }}>csvパーサー</span>により
+            <span style={{ color: 'yellow' }}>Firestore</span>に追加し、それをランダムにブラウザに表示することで出題機能を実装。そして、Firestoreの関数である<span style={{ color: 'yellow' }}>getDocs</span>とmap関数により出題
+            ローマ字の示すひらがな文字1文字と間違えの文字1文字を、2つの選択肢ひらがなカードとしてランダム表示することで解答機能を実装し、文字毎のゲームデータ（正解数、不正解数、出題数、正解率）をFirestoreに格納します。また、
+            <span style={{ color: 'yellow' }}>useEffect</span>によりBGMを流し、<span style={{ color: 'yellow' }}>playメソッド</span>によりボタンクリック時の効果音を出すなど、学習者のモチベーションを維持する工夫をこらしました。
+
+          </p>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <button onClick={openModal16}>説明書</button>
+          <button onClick={closeModal16}>閉じる</button>
         </div>
       </div>
 
@@ -270,7 +330,7 @@ export default function Home() {
             style={{ borderRadius: '10px' }}
           />
         </Link>
-        <div id='modal-content-14'>
+        <div id='modal-content-15'>
           <p style={{ color: 'white' }} >
             一先ず、<span style={{ color: 'yellow' }}>Node.js</span>サーバーをTypeScriptベースで構築し、<span style={{ color: 'yellow' }}>Postman</span>を使って<span style={{ color: 'yellow' }}>エンドポイント</span>が正しく
             機能しているか<span style={{ color: 'yellow' }}>APIテスト</span>を実行し、<span style={{ color: 'yellow' }}>Prisma</span>でデータベースを管理（リレーショナルマッピング）。Node.jsのフレームワークである
@@ -281,8 +341,8 @@ export default function Home() {
           </p>
         </div>
         <div style={{ display: 'flex' }}>
-          <button onClick={openModal14}>説明書</button>
-          <button onClick={closeModal14}>閉じる</button>
+          <button onClick={openModal15}>説明書</button>
+          <button onClick={closeModal15}>閉じる</button>
         </div>
       </div>
 
