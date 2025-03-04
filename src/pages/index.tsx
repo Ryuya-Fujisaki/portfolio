@@ -250,35 +250,11 @@ export default function Home() {
         <h2 style={{ margin: '0 0 0 0', fontSize: '24px', color: 'yellow', }}>これまでの学習についてのご説明</h2>
         <div id='modal-content-00'>
           <p style={{ margin: '0 0 0 14px', fontSize: '16px', color: 'white', }}>
-            2023年6月6日に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し
-            就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を
-            行ってきました。3か月のメンタリングサービスは、週1回のオンライン面談と、スラック質問への24時間対応です。<br />
-            <br />
-            メンター付き学習の3か月間は、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、
-            JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に
-            学習してきました。ちなみに本サイトは、<span style={{ color: 'yellow' }}>Next.js</span>、<span style={{ color: 'yellow' }}>TypeScript</span>により作成しています。<br />
-            <br />
-            アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備
-            されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、
-            独学エンジニアというサブスクリプションで独学でアプリ開発に着手したのですが、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することが
-            できず悩んでいた時にMENTAに出会った次第です。<br />
-            <br />
-            パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm
-            </span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在する
-            ことを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において重要なことであることを痛感しています。<br />
-            <br />
-            3か月の学習後、大阪のアプリ開発会社に就職し、そこで1.5か月間の実務経験を積むことができました。
-            その内容はLaravel/TypeScriptシステムのコード改修とテストですが、その間に、<span style={{ color: 'yellow' }}>GitHub</span>、<span style={{ color: 'yellow' }}>Docker</span>、
-            <span style={{ color: 'yellow' }}>CodeIgniter4</span>、<span style={{ color: 'yellow' }}>PhpStorm</span>の操作方法や、<span style={{ color: 'yellow' }}>bash</span>、
-            <span style={{ color: 'yellow' }}>build</span>、<span style={{ color: 'yellow' }}>npm run dev</span>などのコマンドの使い方、
-            PHPアプリ、JavaScriptアプリそれぞれのブラウザへの表示方法を習得いたしました。<br />
-            <br />
-            その会社を退職後、<span style={{ color: 'yellow' }}>フルスタックアプリ開発</span>の習得を目的とし再度独学を開始し、2023年11月20日現在、<span style={{ color: 'yellow' }}>Next.js</span>、
-            <span style={{ color: 'yellow' }}>Express(Node.js)</span>、<span style={{ color: 'yellow' }}>Prisma</span>、<span style={{ color: 'yellow' }}>AWS</span>を使用したTodoリストの開発
-            （教材を見ながらのトレーニング）を完了しました(Vol.15)。一番の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能を実装するロジックを組むことが苦手であることです。特に、
-            フロントエンドとバックエンド、<span style={{ color: 'yellow' }}>データベース</span>を連携するようなアプリだとなおのこと実装が困難です。しかしなんとか、またしてもMENTAのアドバイスをもらいながら、2024年
-            1月の約1か月で<span style={{ color: 'yellow' }}>オリジナルアプリ</span>を完成することができました。とはいうものの、新規ユーザーのゲームデータの格納、ゲームデータのブラウザ表示などの実装が未完了であり、
-            デプロイはしたものの、課題は山積みです。
+            2020年に<span style={{ color: 'yellow' }}>オンラインメンタリングサービスMENTA</span>にて有料メンタリング契約を締結し、3か月でWEBアプリ開発のいろはを習得し就職に備える計画を立てました。メンターは組織化しており、独自のノウハウにより作成された<span style={{ color: 'yellow' }}>個別学習カリキュラム</span>にて3か月学習を行いました。3か月のメンタリングサービスは、週1回のオンライン面談と、スラック質問への24時間対応です。<br />
+            メンター付き学習の3か月間は、Visual Studio Code、Command Line、Git、GitHub、Google Chrome 検証ツール、JavaScript、JavaScript DOM、<span style={{ color: 'yellow' }}>TypeScript</span>、React、<span style={{ color: 'yellow' }}>Next.js</span>について主に学習しました。ちなみに本サイトは、<span style={{ color: 'yellow' }}>Next.js</span>、<span style={{ color: 'yellow' }}>TypeScript</span>により作成しています。<br />
+            アプリ開発についてはReactも含めて、これまで独学でプロゲートやUdemyで学習を行なってきたものの、学習プラットフォームに準備されたアプリを操作するだけで、アプリケーションを自分のPCのローカル環境で作成する方法が全くわかりませんでした。そんな中、独学エンジニアというサブスクリプションで独学でアプリ開発に着手したのですが、<span style={{ color: 'yellow' }}>パッケージのバージョンの違い</span>などにより多発するエラーを自己解決することができず悩んでいた時にMENTAに出会った次第です。<br />
+            パッケージ、<span style={{ color: 'yellow' }}>ライブラリ</span>、<span style={{ color: 'yellow' }}>フレームワーク</span>等のバージョン違いを解決するために、<span style={{ color: 'yellow' }}>npm</span>や<span style={{ color: 'yellow' }}>yarn</span>といった<span style={{ color: 'yellow' }}>パッケージマネージャー</span>が存在することを知り、それらを操作することでエラーを解決し開発環境を整えることは、アプリ開発において重要なことであることを痛感しています。<br />
+            その後<span style={{ color: 'yellow' }}>フルスタックアプリ開発</span>の習得を目的とし再度独学を開始し、2022年6月現在、<span style={{ color: 'yellow' }}>Next.js</span>、<span style={{ color: 'yellow' }}>Express(Node.js)</span>、<span style={{ color: 'yellow' }}>Prisma</span>、<span style={{ color: 'yellow' }}>AWS</span>を使用したTodoリストの開発（教材を見ながらのトレーニング）を完了しました(Vol.15)。一番の悩みは<span style={{ color: 'yellow' }}>実装力不足</span>です。つまり、自分で機能を実装するロジックを組むことが苦手であることです。特に、フロントエンドとバックエンド、<span style={{ color: 'yellow' }}>データベース</span>を連携するようなアプリだとなおのこと実装が困難です。しかしなんとか、MENTAのアドバイスをもらいながら、約1か月で<span style={{ color: 'yellow' }}>オリジナルアプリ</span>を完成することができました。とはいうものの、新規ユーザーのゲームデータの格納、ゲームデータのブラウザ表示などの実装が未完了であり、デプロイはしたものの、課題は山積みです。
           </p>
         </div>
         <div style={{ display: 'flex' }}>
