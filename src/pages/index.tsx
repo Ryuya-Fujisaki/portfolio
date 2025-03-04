@@ -267,8 +267,7 @@ export default function Home() {
       <div id='app' className='w-1/2 p-4' >
         {/* className='w-1/2 p-4'を追加 */}
         <Link id="link" href="https://hiragana-learning.vercel.app/" target="_blank" >
-          <span style={{ fontSize: '24px', color: 'yellow' }}>Vol16.</span> 初のオリジナルアプリ。ひらがな当てゲーム。Next.js、TypeScript、<br />
-          Firebase Authentication、Firebase Firestore。Vercelにデプロイ。
+          <span style={{ fontSize: '24px', color: 'yellow' }}>Vol16.</span> 初のオリジナルアプリ。ひらがな当てゲーム。Next.js、<br />TypeScript、Firebase Authentication、Firebase Firestore。Vercelにデプロイ。
           <Image
             src="/vol16.png"
             alt=""
