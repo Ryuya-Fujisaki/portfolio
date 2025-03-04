@@ -470,7 +470,7 @@ export default function Home() {
       </div>
 
       <div id='app' className='w-1/2 p-4' >
-        <Link id="link" href="https://master.d36sqrx8bz2p6e.amplifyapp.com/" target="_blank">
+        <Link id="link" href="https://my-own-todo-app-6.vercel.app/" target="_blank">
           <span style={{ fontSize: '24px', color: 'yellow' }}>Vol8.</span> コンポーネント化を実施したTODOアプリ（TypeScript）
           <Image
             src="/vol8.png"
@@ -493,7 +493,7 @@ export default function Home() {
       </div>
 
       <div id='app' className='w-1/2 p-4' >
-        <Link id="link" href="https://master.d2nbkk8ucu5sqh.amplifyapp.com/" target="_blank">
+        <Link id="link" href="https://my-own-todo-app-5.vercel.app/" target="_blank">
           <span style={{ fontSize: '24px', color: 'yellow' }}>Vol7.</span> コンポーネント化前のTODOアプリ（TypeScript）
           <Image
             src="/vol7.png"
