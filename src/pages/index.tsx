@@ -402,7 +402,7 @@ export default function Home() {
       </div>
 
       <div id='app' className='w-1/2 p-4' >
-        <Link id="link" href="https://master.d30n4n13k6fn7q.amplifyapp.com/" target="_blank">
+        <Link id="link" href="https://my-own-todo-app-9.vercel.app/" target="_blank">
           <span style={{ fontSize: '24px', color: 'yellow' }}>Vol11.</span> trello風TODOアプリ（JavaScript, Material UI）
           <Image
             src="/vol11.png"
@@ -424,7 +424,7 @@ export default function Home() {
       </div>
 
       <div id='app' className='w-1/2 p-4' >
-        <Link id="link" href="https://master.d17vt2q5quk7jx.amplifyapp.com/" target="_blank">
+        <Link id="link" href="https://my-own-todo-app-8.vercel.app/" target="_blank">
           <span style={{ fontSize: '24px', color: 'yellow' }}>Vol10.</span> FIrebase/Firestore TODOアプリ（TypeScript, Material UI）
           <Image
             src="/vol10.png"
